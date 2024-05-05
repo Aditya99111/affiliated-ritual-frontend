@@ -116,7 +116,7 @@ const AdminDashboard = () => {
               <div className="maximise"><img src={expand} height={25} alt="" /></div>
               <div className="notifications"><img src={notif} height={30} alt="" /></div>
               <div className="profile"><img src={profile} height={35} alt="" /></div>
-            </div>
+            </div> 
           </div>
         </div>
         <div className="content">
