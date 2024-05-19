@@ -1,10 +1,10 @@
 
-.edu .linegraph .lineheader{
+ .linegraph .lineheader{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 1.5rem;
 }
-.edu .linegraph .lefthed{
+ .linegraph .lefthed{
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -13,12 +13,12 @@
     border-radius: 10px;
 }
 
-.edu .linegraph .lefthed *{
+.linegraph .lefthed *{
     
     padding: 0 5px;
 }
 
-.edu .linegraph .linecontent{
+ .linegraph .linecontent{
     display: flex;
     justify-content: space-between;
     padding: 0 2rem;
@@ -30,7 +30,7 @@
 }
 
 
-.edu .linegraph {
+ .linegraph {
     width: 40%;
     min-width: 550px;
     
@@ -42,7 +42,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-    .edu .linegraph .linecontent{
+     .linegraph .linecontent{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -53,7 +53,7 @@
  }
 
  @media only screen and (max-width: 900px) {
-    .edu .linegraph {
+    .linegraph {
         width: 90%;
         min-width: 350px;
         background-color: #000;

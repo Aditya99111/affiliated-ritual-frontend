@@ -17,7 +17,7 @@
 .bargraph canvas{
     width: 95% !important;
 }
-.edu .bargraph{
+ .bargraph{
     width: 40%;
     min-width: 550px;
     height: 280px;
@@ -27,7 +27,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-    .edu .bargraph{
+    .bargraph{
         width: 90%;
         min-width: 350px;
         background-color: #000;

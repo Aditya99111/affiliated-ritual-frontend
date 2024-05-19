@@ -6,6 +6,7 @@ import TeamLeader from './Flows/TeamLeader/TeamLeader';
 import Student from './Flows/Student/Student';
 import TeamMember from "./Flows/TeamMember/TeamMember";
 import ClubAdmin from "./Flows/ClubAdmin/ClubAdmin";
+import SuperAdmin from "./Flows/SuperAdmin/SuperAdmin";
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
           <Route path="/teamleader" element={<TeamLeader />} />
           <Route path="/teammember" element={<TeamMember />} />
           <Route path="/clubadmin" element={<ClubAdmin />} />
+          <Route path="/superadmin" element={<SuperAdmin />} />
 
 
           
